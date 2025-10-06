@@ -1,0 +1,36 @@
+.blog {
+    height: 80vh;
+    padding: 2rem 0;
+    &__ul {
+        padding-top: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        list-style: none;
+        text-decoration: none;  
+    }
+    &__list {
+        background-color: red;
+        width: 25rem;
+        height: 30rem;
+        border-radius: .5rem;
+        border-color: #0c9f58;
+        border-style: solid;
+        border-width: .3rem;
+        box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:hover{
+            border-color: aquamarine;
+            transition: all 0.3s ease-in-out;
+            transform: scale(1.04) rotate(3deg);
+
+        }
+    }
+    a {
+        text-decoration: none;
+        text-align: center;
+    }
+}

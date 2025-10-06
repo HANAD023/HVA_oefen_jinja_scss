@@ -1,0 +1,84 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.header {
+  padding: 3rem;
+  padding-right: 8rem;
+  background-color: red;
+}
+.header__ul {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+}
+.header__li {
+  font-size: 1.8rem;
+  color: #000;
+}
+
+.blog {
+  height: 80vh;
+  padding: 2rem 0;
+}
+.blog__ul {
+  padding-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  list-style: none;
+  text-decoration: none;
+}
+.blog__list {
+  background-color: red;
+  width: 25rem;
+  height: 30rem;
+  border-radius: 0.5rem;
+  border-color: #0c9f58;
+  border-style: solid;
+  border-width: 0.3rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blog__list:hover {
+  border-color: aquamarine;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.04) rotate(3deg);
+}
+.blog a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.footer {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+}
+.footer__text {
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
